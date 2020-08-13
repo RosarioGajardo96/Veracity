@@ -1,0 +1,14 @@
+:root {
+    --logo-fill: #ff8c00;
+    --fancy-yeller: #fc9312;
+    --dusky-gray: #181818;
+    --medium-gray: #b8b8b8;
+    --sky-blue: #3498db;
+    --dark-green: #04756f;
+    --firebrick-red: #ff2d00;
+    --alternate-orange: #ff8c00;
+    --off-white: #f6f6f8;
+    --full-white: #ffffff;
+    --base-background: var(--off-white);
+    --primary-accent: var(--firebrick-red);
+    --logo: var(--dusky-gray);

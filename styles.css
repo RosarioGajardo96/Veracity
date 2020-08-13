@@ -1,0 +1,107 @@
+body,html{
+    height: 100vh;
+    margin: 0;
+    background: #f6f6f8;
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+    padding: 4.5em 3em;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #848586;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+section p{
+    padding-bottom: 3%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+.team img {
+    max-width: 20%;
+    flex-direction: row;
+}
+  
+.hero-image {
+    position : relative;
+    height: 100vh;
+    overflow: hidden;
+    background: url("images/andreeach.jpg") no-repeat center; 
+    background-size: cover;
+    /*There Was Jesus*/
+}
+
+h1{
+    color: #848586;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: #ff2d00;
+
+}
+
+.container h1{
+    color: #848586;
+    /*color: #280003;*/
+    font-size: 4em;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+}
+
+.container h1 span{
+    /*border: 10px solid white;*/
+    display: inline-block;
+}
+
+.container h2 {
+    margin-bottom: 0;
+    color: #ff2d00;
+}
+
+.spec-frame p {
+    text-align: center;
+}
+  
+
+.title-design{
+    margin: 20px;
+    display: block;
+    /*text-shadow: 0 0 10px blanchedalmond;*/
+}
+
+button{
+    color: #f6f6f8;
+    margin-top: 10%;
+    background-color: #ff2d00;
+    padding: 10px 50px;
+    font-size: 0.9em;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #767676;
+}
+
+.mission p {
+    text-align: justify;
+}
