@@ -7,13 +7,32 @@
     <title>Veracity</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@800&display=swap" rel="stylesheet">
     <link rel= "stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!---GSAP STUFF-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
-<body>
-    <main class="hero-image">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">VeracityCam</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+    </nav>
+
+
+    <main class="hero-image" id="home">
         <div class="container">
                 <h2 class="brand-name"> VERACITY CAM </h2>
                 <h1><span class= "title-design" >TRUTH. BE TOLD</span></h1>
@@ -25,15 +44,17 @@
         </div>
     </main>
 
-    <section >
-        <div class="mission">
+    <section id="mission">
+        <div class="mission" >
             <h1>Mission</h1>
 
             <p>To call out abuse of power by presenting proof. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
+    </section>
 
 
+    <section id="product">
         <div class="spec-frame">
             <img src = "images/vCamAngle.jpg" alt = "Spec Image 1"> 
             <p> Concealed camera provides stealth. </p>
@@ -43,17 +64,17 @@
             <p> Night Recording</p><!--Night Vision for night recording-->
             <p> Chain of Custody</p><!--Safe, Encrypted and Protected-->
         </div>
-
     </section>
+    
 
-    <section class= "team">
+    <section class= "team" id="team">
         <h1>TEAM</h1>
 
         <div>
             <img src = "images/" alt= "Rosario Gajardo">
             <p>Rosario Gajardo</p>
             <img src = "images/ryan.jpg" alt= "Ryan O'Farrell">
-            <p>Ryan O'Farrell (Owner Of Veracity)</p>
+            <p>Ryan O'Farrell</p>
             <img src = "images/" alt= "Deborah Botchwey">
             <p>Deborah Botchwey</p>
         </div>

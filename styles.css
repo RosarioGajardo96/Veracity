@@ -5,8 +5,11 @@ body,html{
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 section {
-    height: 100vh;
     text-align: center;
     padding: 4.5em 3em;
 }
