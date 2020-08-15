@@ -11,7 +11,7 @@ html {
 
 section {
     text-align: center;
-    padding: 4.5em 3em;
+    padding-bottom: 5%;
 }
 
 p{
@@ -21,9 +21,23 @@ p{
     text-align: center;
 }
 
-section p{
-    padding-bottom: 3%;
+.navbar a{
+    font-family: 'Montserrat', sans-serif !important;
 }
+
+.navbar {
+    box-shadow: 0 !important;
+    border: 0 !important;
+    background: #f6f6f8 !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+      position: fixed;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+  }
 
 img {
     max-width: 50%;
@@ -31,8 +45,10 @@ img {
 }
 
 .team img {
-    max-width: 20%;
-    flex-direction: row;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
 }
   
 .hero-image {
@@ -61,6 +77,24 @@ h1{
 
 }
 
+.mission h1{
+    color: #ff2d00 ;
+    margin: 35px;
+    padding-top: 70px;
+}
+
+.mission p{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: justify;
+}
+
+@media screen and (min-width: 601px) {
+    .mission p {
+      font-size: 15px;
+    }
+  }
+
 .container h1{
     color: #848586;
     /*color: #280003;*/
@@ -82,7 +116,13 @@ h1{
 .spec-frame p {
     text-align: center;
 }
-  
+
+video{
+    float: left;
+    width: 100% !important;
+    height: auto !important;
+    padding: 10%;
+}
 
 .title-design{
     margin: 20px;
@@ -91,7 +131,7 @@ h1{
 }
 
 button{
-    color: #f6f6f8;
+    color: #f6f6f8 !important;
     margin-top: 10%;
     background-color: #ff2d00;
     padding: 10px 50px;
@@ -105,6 +145,47 @@ button:hover{
     background-color: #767676;
 }
 
-.mission p {
-    text-align: justify;
+
+.team h1{
+    color: #ff2d00 ;
+    margin: 35px;
+    padding-top: 70px;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.footer {
+    width: 100%;
+    background-color: #767676;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+ }
+
+

@@ -15,16 +15,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+<body data-spy="scroll" data-target=".navbar" data-offset="5" >
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">VeracityCam</a>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#mission">Mission</a></li>
+          <ul  class="nav navbar-nav navbar-center">
+            <li><a href="#misssion">Mission</a></li>
             <li><a href="#product">Product</a></li>
             <li><a href="#team">Team</a></li>
           </ul>
@@ -40,22 +39,30 @@
                 <div class="button">
                     <button>PREORDER</button>
                 </div>
-            <div>column 2</div>
+            <!--<div>column 2</div>-->
         </div>
     </main>
 
-    <section id="mission">
+    <section id="misssion">
         <div class="mission" >
-            <h1>Mission</h1>
 
+            <div>
+            <h1>Mission</h1>
+            </div>
             <p>To call out abuse of power by presenting proof. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            
         </div>
     </section>
 
 
     <section id="product">
         <div class="spec-frame">
+            <div class="video">
+                <video controls>
+                    <source src="images/video.mp4" type="video/mp4">
+                </video>
+            </div>
             <img src = "images/vCamAngle.jpg" alt = "Spec Image 1"> 
             <p> Concealed camera provides stealth. </p>
             <img src = "images/vCamTop.jpg" alt = "Spec Image 2"> 
@@ -70,16 +77,27 @@
     <section class= "team" id="team">
         <h1>TEAM</h1>
 
-        <div>
-            <img src = "images/" alt= "Rosario Gajardo">
-            <p>Rosario Gajardo</p>
-            <img src = "images/ryan.jpg" alt= "Ryan O'Farrell">
-            <p>Ryan O'Farrell</p>
-            <img src = "images/" alt= "Deborah Botchwey">
-            <p>Deborah Botchwey</p>
+        <div class="row">
+            <div class="column">
+                <img  class="img-circle" style="width:75% " src = "images/orange.png" alt= "Rosario Gajardo">
+                <p>Rosario Gajardo</p>
+            </div>
+            <div class="column">
+                <img class="img-circle" style="width:75%" src = "images/orange.png" alt= "Ryan O'Farrell">
+                <p>Ryan O'Farrell</p>
+            </div>
+            <div class="column">
+                <img class="img-circle" style="width:75%" src = "images/orange.png" alt= "Deborah Botchwey">
+                <p>Deborah Botchwey</p>
+            </div>
+            </div>
         </div>
       
     </section>
+
+    <div class="footer">
+        <footer>footer</footer>
+      </div>
 
 <script>
     /*gsap.to("img", {
