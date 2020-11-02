@@ -141,7 +141,7 @@ p {
     top: 0;
     left: 0;
     height: 100vh;
-    background: url("images/productPhotos/whiteBg.jpg");
+    background: url("/media/productPhotos/whiteBg.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -225,7 +225,7 @@ video {
     top: 0;
     left: 0;
     height: 50vh;
-    background: url(images/productPhotos/cyan.jpg);
+    background: url("../media/productPhotos/cyan.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -237,7 +237,7 @@ video {
     top: 0;
     left: 0;
     height: 100vh;
-    background: url(images/productPhotos/collageWeb2.png);
+    background: url("../media/productPhotos/collageWeb2.png");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -251,7 +251,7 @@ video {
         background-attachment: scroll;
     }
     .paralax3 {
-        background: url(images/productPhotos/collageMobile.png);
+        background: url("../media/productPhotos/collageMobile.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
